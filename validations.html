@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Validations</title>
+    </head>
+    <body>
+        <h1 style="background-color: brown;text-align: center;">VALIDATIONS</h1>
+        <p>To perform validations we use HTML tag attributes.These validation attributes are used in html input tag.</p>
+        <form>
+            <h3>1.required</h3>
+            <label>Email</label>
+            <input type="email" required/>
+            <input type="submit" value="login"/>
+            <h3>2.readonly</h3>
+            <label>Country</label>
+            <input type="text" value="INDIA" readonly/>
+            <h3>3.disabled</h3>
+            <label>Additional Information</label>
+            <input type="text" placeholder="(Optional)" disabled/>
+            <h3>4.placeholder</h3>
+            <label>NAME</label>
+            <input type="text" placeholder="pls enter your name"/>
+            <h3>5.value</h3>
+            <label>phone number</label>
+            <input type="number"/>
+            <input type="submit" value="enter"/>
+            <h3>6.min</h3>
+            <label>pincode</label>
+            <input type="number" min="6" required/>
+            <h3>7.max</h3>
+            <label>Postal code</label>
+            <input type="number" max="4" required/>
+            <h3>8.minlength</h3>
+            <label>Company</label>
+            <input type="text" minlength="10" required/>
+            <h3>9.maxlength</h3>
+            <label>address</label>
+            <input type="text" maxlength="20" required/>
+            <h3>10.tabindex</h3>
+            <label>NAME</label>
+            <input type="text" tabindex="2"/> <br><br>
+            <label>EMAIL</label>
+            <input type="email" tabindex="1"/> <br><br>
+            <label>PHONE NUMBER</label>
+            <input type="number" tabindex="4"/> <br><br>
+            <label>PASSWORD</label>
+            <input type="password" tabindex="3"/> <br><br>
+            <input type="submit" value="LOGIN"/>
+        </form>
+    </body>
+</html>
